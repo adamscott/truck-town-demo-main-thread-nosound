@@ -664,7 +664,7 @@ function createExportWrapper(name) {
 // include: runtime_exceptions.js
 // end include: runtime_exceptions.js
 var wasmBinaryFile;
-  wasmBinaryFile = 'godot.web.template_debug.dev.wasm32.wasm';
+  wasmBinaryFile = 'godot.web.template_release.dev.wasm32.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
@@ -14166,8 +14166,6 @@ var dynCall_jiiiiiiiiii = Module['dynCall_jiiiiiiiiii'] = createExportWrapper('d
 var dynCall_jiiiiii = Module['dynCall_jiiiiii'] = createExportWrapper('dynCall_jiiiiii');
 var dynCall_jiiiiiiii = Module['dynCall_jiiiiiiii'] = createExportWrapper('dynCall_jiiiiiiii');
 var dynCall_iijji = Module['dynCall_iijji'] = createExportWrapper('dynCall_iijji');
-var dynCall_jjj = Module['dynCall_jjj'] = createExportWrapper('dynCall_jjj');
-var dynCall_jjjj = Module['dynCall_jjjj'] = createExportWrapper('dynCall_jjjj');
 var dynCall_viiiiji = Module['dynCall_viiiiji'] = createExportWrapper('dynCall_viiiiji');
 var dynCall_ij = Module['dynCall_ij'] = createExportWrapper('dynCall_ij');
 var dynCall_iijjiii = Module['dynCall_iijjiii'] = createExportWrapper('dynCall_iijjiii');
